@@ -1,9 +1,11 @@
 const fs = require ("fs");
 const contentFilePath = "./content.json"
 
-function save (content){
-    const contentString = JSON.stringify(content);
-    return fs.writeFileSync(contentFilePath, contentString);
+function save(content) {
+    let existingContent = load(); 
+    existingContent = { ...existingContent, ...content }; 
+    const contentString = JSON.stringify(existingContent);
+    fs.writeFileSync(contentFilePath, contentString);
 }
 
 function load (){
