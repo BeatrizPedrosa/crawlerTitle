@@ -33,7 +33,7 @@ npm install puppeteer jest
 const crawler = require('./crawler');
 
 // Executar o crawler
-crawler.crawlerDeExemplo()
+crawler.crawlerTitle()
   .then(resultado => console.log(`Título da Página: ${resultado}`))
   .catch(erro => console.error(`Erro: ${erro}`));
 ```

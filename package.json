@@ -1,0 +1,28 @@
+{
+  "name": "crawlertitle",
+  "version": "1.0.0",
+  "description": "Este é um exemplo simples de um crawler desenvolvido em Node.js, que utiliza Puppeteer para automatizar interações com páginas web. Jest é utilizado para testes automatizados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeatrizPedrosa/crawlerTitle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeatrizPedrosa/crawlerTitle/issues"
+  },
+  "homepage": "https://github.com/BeatrizPedrosa/crawlerTitle#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "jest": "^29.7.0",
+    "puppeteer": "^21.5.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
